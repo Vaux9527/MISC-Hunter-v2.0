@@ -1,0 +1,11 @@
+# MISC Hunter v2.0: Python 依赖清单
+#
+# 当前为零依赖(纯标准库)。注意: 本文件只管 Python 包(pip install),
+# 外部 CTF 工具(binwalk/zsteg/steghide/F5 等系统命令)不在此列,
+# 由插件通过 utils/tools.py 运行时检测, 安装方式见 README「外部工具」节。
+#
+# 3.0 规划中可能引入:
+#   pycryptodome  # 密钥解密框架: Serpent/AES/DES 等 (3.0)
+#
+# 可选美化(非必需, 项目默认零依赖):
+#   rich          # 终端 UI 增强 (3.0+)
